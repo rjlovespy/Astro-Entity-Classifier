@@ -11,8 +11,8 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 
 ## __Under the following terms:__
 
-* __Attribution__  You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-* __NonCommercial__ — You may not use the material for commercial purposes.
+* __Attribution:__ You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* __NonCommercial:__ You may not use the material for commercial purposes.
 
 ## __No additional restrictions__
 
