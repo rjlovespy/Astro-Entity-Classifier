@@ -1,0 +1,142 @@
+1. Logistic Regression:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'QSO', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 0.9571459235596409
+The Model is not Overfitted
+Precision = 0.9561595530364684, Recall = 0.956148436217629, F1 Score = 0.9557782522908862
+Conclusion: Acceptable
+
+
+2. Decision Tree Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 1.0
+The Model is Overfitted
+Precision = 0.9642909285402042, Recall = 0.964317731284486, F1 Score = 0.9643040068955235
+Conclusion: Rejected due to overfitting. See although the model is overfitted, precision, recall and F1 score are not exactly 1. This is because, we have used 3-fold cross validation.
+
+
+3. Random Forest Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 0.9999747471558984
+The Model is not Overfitted
+Precision = 0.9763232429389745, Recall = 0.9764517228752888, F1 Score = 0.9762976502815489
+Conclusion: Rejected
+
+
+4. Support Vector Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'QSO', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 0.963673783759896
+The Model is not Overfitted
+Precision = 0.9618960797015264, Recall = 0.9614262806348565, F1 Score = 0.961243135495957
+Conclusion: Rejected due to extremely slow computation
+
+
+5. K Neighbors Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 0.9555802472253437
+The Model is not Overfitted
+Precision = 0.9352428392362788, Recall = 0.9349613000164143, F1 Score = 0.9349301040278498
+Conclusion: Acceptable
+
+
+6. Guassian Naive Bayes:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+[np.str_('STAR'), np.str_('STAR'), np.str_('GALAXY'), np.str_('QSO'), np.str_('STAR'), np.str_('GALAXY'), np.str_('GALAXY'), np.str_('STAR'), np.str_('GALAXY'), np.str_('QSO')]
+Accuracy of the model is 0.9235596409045569
+The Model is not Overfitted
+Precision = 0.9277257316060743, Recall = 0.923496508794303, F1 Score = 0.9247480595718996
+Conclusion: Acceptable
+
+
+7. Multilayer Perceptron(MLP) Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+[np.str_('STAR'), np.str_('STAR'), np.str_('GALAXY'), np.str_('QSO'), np.str_('STAR'), np.str_('GALAXY'), np.str_('GALAXY'), np.str_('STAR'), np.str_('GALAXY'), np.str_('GALAXY')]
+Accuracy of the model is 0.9739643177312844
+The Model is not Overfitted
+Precision = 0.9717043182763538, Recall = 0.9717546938723973, F1 Score = 0.9716142990019011
+Conclusion: Acceptable
+
+
+8. Quadratic Discriminant Analysis:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'QSO', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 0.9487872321620222
+The Model is not Overfitted
+Precision = 0.9501957545888445, Recall = 0.948623088675362, F1 Score = 0.9490844717210375
+Conclusion: Acceptable
+
+
+9. Bagging Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 0.9970580436621674
+The Model is not Overfitted
+Precision = 0.97597145363877, Recall = 0.9760981830578669, F1 Score = 0.9759269710725322
+Conclusion: Acceptable
+
+
+10. Gradient Boosting Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 0.976615866361949
+The Model is not Overfitted
+Precision = 0.9744785200798246, Recall = 0.9746082652558744, F1 Score = 0.9743894826110302
+Conclusion: Rejected due to extremely slow computation
+
+
+11. Extra Trees Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Accuracy of the model is 1.0
+The Model is Overfitted
+Precision = 0.9715046327468476, Recall = 0.9715779239636864, F1 Score = 0.9713881194475238
+Conclusion: Rejected due to overfitting. See although the model is overfitted, precision, recall and F1 score are not exactly 1. This is because, we have used 3-fold cross validation.
+
+
+12. Ada Boost Classifier:
+
+Sample True Label: 
+['STAR', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY', 'STAR', 'GALAXY', 'GALAXY']
+Sample Predicted Label: 
+['GALAXY', 'GALAXY', 'GALAXY', 'GALAXY', 'GALAXY', 'GALAXY', 'GALAXY', 'GALAXY', 'GALAXY', 'GALAXY']
+Accuracy of the model is 0.6434298412858748
+The Model is not Overfitted
+Precision = 0.6961963301353492, Recall = 0.7755148423591207, F1 Score = 0.7094704941068702
+Conclusion: Rejected due to poor F1 score.
