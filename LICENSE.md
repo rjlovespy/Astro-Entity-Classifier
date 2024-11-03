@@ -1,4 +1,4 @@
-# __Creative Commons Attribution-Non Commercial 4.0 International License(CC BY NC 4.0)__
+# __Creative Commons Attribution-Non Commercial 4.0 International License__
 
 This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 
