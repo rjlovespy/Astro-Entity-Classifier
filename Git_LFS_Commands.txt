@@ -1,0 +1,29 @@
+[A] For files lesser than 25 MB:
+
+1. Open the git bash in the folder and after creating an empty github repository of the same name in its web application.
+2. Step-1: git init
+3. Step-2. git status
+4. Step-3: git add . (To add all files at once)
+5. Step-4. git status
+6. Step-5: git commit -m "Initial commit" (To commit the files)
+7. Step-6: git remote add rjlovespy https://github.com/rjlovespy/[name_of_github_repository].git
+8. Step-7: git push -u rjlovespy main
+
+@Note:- This method is not recommended since it is easier to upload all such files via web application
+
+
+
+
+[B] For files larger than 25 MB:
+
+1. Open the git bash in the github repository folder.
+2. Step-1: git lfs install
+3. Step-2: git lfs track "*.csv" (if your csv file > 25 MB)
+           git lfs track "build/*" (if you have a folder cotaining several files > 25 MB)
+4. Step-3: git add .gitattributes
+5. Step-4: git add SDSS_DR18.csv
+           git add build/
+6. Step-5: git commit -m "Uploading Large Files"
+7. Step-6: git push rjlovespy main
+
+@Note:-This method is highly recommended for large file/folder upload
