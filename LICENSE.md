@@ -1,19 +1,19 @@
-# Creative Commons Attribution-NonCommercial 4.0 International License
+# __Creative Commons Attribution-Non Commercial 4.0 International License__
 
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 
-## You are free to:
+## __You are free to:__
 
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
+* __Share:__ copy and redistribute the material in any medium or format
+* __Adapt:__ remix, transform, and build upon the material
 
-**The licensor cannot revoke these freedoms as long as you follow the license terms.**
+The licensor cannot revoke these freedoms as long as you follow the license terms.
 
-## Under the following terms:
+## __Under the following terms:__
 
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- **NonCommercial** — You may not use the material for commercial purposes.
+* __Attribution__  You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* __NonCommercial__ — You may not use the material for commercial purposes.
 
-## No additional restrictions
+## __No additional restrictions__
 
 You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
