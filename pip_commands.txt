@@ -1,0 +1,29 @@
+1. Install a package
+pip install <package_name>
+
+2. Install a specific version of a package
+pip install <package_name>==<version>
+
+3. Upgrade a package
+pip install --upgrade <package_name>
+
+4. Uninstall a package
+pip uninstall <package_name>
+
+5. List all installed packages
+pip list
+
+6. Show details of a package (including version)
+pip show <package_name>
+
+7. Search for packages (may not work in some pip versions)
+pip search <query>
+
+8. List all packages with newer versions available
+pip list --outdated
+
+9. Upgrade pip itself
+pip install --upgrade pip
+
+10. Display help for pip
+pip help
