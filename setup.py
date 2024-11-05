@@ -2,7 +2,7 @@
 """ 
 @Note:- 
 1. cx_Freeze 7.2.4 has compatibilty issues with python 3.13.0 so I used python 3.12.5 which works well with cx_Freeze 7.2.4
-2. If you this issue too then just uninstall python 3.13.0 and install python 3.12.5
+2. If you face this issue too then just uninstall python 3.13.0 and install python 3.12.5
 
 @Note:- To create .exe file from .py file, follow these steps:
         step-1: Do the necessary changes mentioned in the comments in this setup.py file only
